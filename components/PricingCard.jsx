@@ -18,7 +18,7 @@ const PricingCard = () => {
           right for you
         </h1>
         <h3 className="text-center mt-3 text-gray-600">
-          Lorem ipsum dolor sit amet, consectetur adipiscure
+        Take Your CV/Resume to the Next Level with Our Elite Plans
         </h3>
       </div>
 

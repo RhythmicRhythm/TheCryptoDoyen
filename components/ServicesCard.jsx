@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const ServicesCard = () => {
   return (
@@ -16,23 +17,29 @@ const ServicesCard = () => {
     >
       <div className="group cursor-pointer overflow-hidden mb-3">
         <div className="flex flex-col items-center justify-center mx-auto px-5">
+        <picture>
           <img
             src="https://img.icons8.com/stickers/100/000000/parse-resumes.png"
             className="h-20 w-20"
             alt=""
           />
           <p className="services_text text-base font-bold">Cv/Resume Building</p>
-         
+          </picture>
         </div>
       </div>
 
       <div className="group cursor-pointer overflow-hidden mb-3">
         <div className="flex flex-col items-center justify-center mx-auto px-5">
-          <img
-            src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-cover-letter-job-search-flaticons-lineal-color-flat-icons-2.png"
-            className="h-20 w-20"
-            alt=""
-          />
+         
+
+        <Image
+       src="https://img.icons8.com/stickers/100/000000/parse-resumes.png"
+      alt="Landscape picture"
+      
+      width={400}
+      height={400}
+    />
+
           <p  className="services_text text-base font-bold">Cover Letter Creation</p>
        
         </div>
@@ -45,7 +52,7 @@ const ServicesCard = () => {
             className="h-20 w-20"
             alt=""
           />
-          <p className="services_text text-base font-bold">LinkedIn Optimisation & Social Bio Profile Creation</p>
+          <p className="services_text text-center text-base font-bold">LinkedIn Optimisation & Social Bio Profile Creation</p>
      
         </div>
       </div>

@@ -16,18 +16,11 @@ const AboutCard = () => {
         </div>
         {/* text */}
         <div className="flex-1 flex flex-col mb-5">
-          <h2 className=" about_text text-3xl font-bold mb-2">Get to Know me</h2>
+          <h2 className=" about_text text-3xl font-bold mb-2">Get To Know Me</h2>
           <p className="subtitle">
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          I'm a professional CV/Resume Builder and Content Writer with years of experience in the industry. As a highly skilled and versatile writer,I have a deep understanding of the job market and knows what it takes to create resumes and cover letters that grab the attention of hiring managers. With a keen eye for detail and the ability to showcase a candidate's strengths and qualifications, I've helped countless job seekers land their dream jobs. I'm able to write a variety of content that can effectively communicate your value to the employer. Whether it's a LinkedIn profile or a personal statement, I can help you stand out and be successful in your career.
           </p>
-          <h2 className="title">title</h2>
-          <h2 className="title">titlel</h2>
-          <h2 className="title">title</h2>
-          <h2 className="title">title</h2>
+       
 
           {/* items */}
           <div></div>

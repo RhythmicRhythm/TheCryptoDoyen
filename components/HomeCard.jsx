@@ -19,14 +19,11 @@ const HomeCard = () => {
         I am a full-stack dev.
       </h1>
       <h3 className="text-center mt-3  text-base lg:text-lg">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure
+        Welcome to the Crypto Doyen's Crib Helen, a professional resume writer with years of experience in the industry. With a strong understanding of 
+      the job market and a keen eye for detail.
       </h3>
       <div className="p-3">  
 					<ul>
-						
 						<div className="flex gap-6 pb-5">
 							<FaInstagram className="text-2xl cursor-pointer hover:text-pink-600" />
 							<FaTwitter className="text-2xl cursor-pointer hover:text-blue-700" />

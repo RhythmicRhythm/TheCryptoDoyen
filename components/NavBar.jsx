@@ -3,11 +3,11 @@ import Button from "./Button";
 
 const NavBar = () => {
   let Links = [
-    { name: "Home", link: "/" },
-    { name: "Service", link: "/" },
-    { name: "About", link: "/" },
+    { name: "Home", link: "#home" },
+    { name: "Service", link: "#services" },
+    { name: "About", link: "#about" },
     { name: "Blog", link: "/Blog" },
-    { name: "Contact", link: "/" },
+    { name: "Contact", link: "#contact" },
   ];
   let [open, setOpen] = useState(false);
   return (
