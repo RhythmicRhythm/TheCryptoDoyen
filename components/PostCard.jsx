@@ -11,10 +11,13 @@ const PostCard = ({ post }) => {
     <Link key={post._id} href={`/post/${post.slug}`}>
    
    <div className="border rounded-lg group cursor-pointer overflow-hidden">
+
+              <picture>
               <img 
               className="h-60 w-full object-cover group-hover:scale-105 
               transition-transform duration-200 ease-in-out" 
               src={post.featuredImage.url} alt="" />
+              </picture>
 
               <div className="flex justify-between p-5 bg-white">
                 <div>
@@ -24,11 +27,14 @@ const PostCard = ({ post }) => {
                     {post.description} by {post.author.name}{" "}
                   </p>
                 </div>
+                <picture>
+                
                 <img
                   className="h-12 w-12 rounded-full"
                   src={post.author.photo.url}
                   alt=""
-                />
+                  />
+                  </picture>
               </div>
             </div>
   </Link>

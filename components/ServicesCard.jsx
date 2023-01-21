@@ -23,23 +23,20 @@ const ServicesCard = () => {
             className="h-20 w-20"
             alt=""
           />
-          <p className="services_text text-base font-bold">Cv/Resume Building</p>
           </picture>
+          <p className="services_text text-base font-bold">Cv/Resume Building</p>
         </div>
       </div>
 
       <div className="group cursor-pointer overflow-hidden mb-3">
-        <div className="flex flex-col items-center justify-center mx-auto px-5">
-         
-
-        <Image
-       src="https://img.icons8.com/stickers/100/000000/parse-resumes.png"
-      alt="Landscape picture"
-      
-      width={400}
-      height={400}
-    />
-
+        <div className="flex flex-col items-center justify-center mx-auto px-5">  
+           <picture>
+           <img
+            src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-cover-letter-job-search-flaticons-lineal-color-flat-icons-2.png"
+            className="h-20 w-20"
+            alt=""
+          />
+           </picture>
           <p  className="services_text text-base font-bold">Cover Letter Creation</p>
        
         </div>
@@ -47,11 +44,15 @@ const ServicesCard = () => {
 
       <div className="group cursor-pointer overflow-hidden mb-3">
         <div className="flex flex-col items-center justify-center mx-auto px-5">
+        <picture>
+            
           <img
             src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-social-seo-flaticons-lineal-color-flat-icons-2.png"
             className="h-20 w-20"
             alt=""
-          />
+            />
+            </picture>
+
           <p className="services_text text-center text-base font-bold">LinkedIn Optimisation & Social Bio Profile Creation</p>
      
         </div>
@@ -59,11 +60,15 @@ const ServicesCard = () => {
 
       <div className="group cursor-pointer overflow-hidden mb-3">
         <div className="flex flex-col items-center justify-center mx-auto px-5">
+        <picture>
+            
           <img
             src="https://img.icons8.com/external-others-cattaleeya-thongsriphong/64/000000/external-Blockchain-blockchain-others-cattaleeya-thongsriphong-12.png"
             className="h-20 w-20"
             alt=""
-          />
+            />
+            </picture>
+
           <p className="services_text text-center text-base font-bold">Blockchain Research & Writing</p>
          
         </div>
@@ -71,11 +76,14 @@ const ServicesCard = () => {
 
       <div className="group cursor-pointer overflow-hidden mb-3">
         <div className="flex flex-col items-center justify-center mx-auto px-5">
+        <picture>
+            
           <img 
             src="https://img.icons8.com/external-filled-outline-geotatah/64/000000/external-community-ecological-interaction-color-filled-outline-geotatah.png"
             className="h-20 w-20"
             alt=""
-          />
+            />
+            </picture>
           <p className="services_text text-base font-bold">Community Management</p>
     
         </div>

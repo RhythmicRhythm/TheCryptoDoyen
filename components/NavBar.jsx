@@ -25,11 +25,14 @@ const NavBar = () => {
           className="text-3xl absolute right-8 top-3  cursor-pointer md:hidden"
         >
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
+          <picture>
+            
           <img
           className="w-8 h-8"
           src="https://img.icons8.com/bubbles/50/000000/menu-2.png"
           alt="" 
-             />
+          />
+          </picture>
         </div>
 
         <ul

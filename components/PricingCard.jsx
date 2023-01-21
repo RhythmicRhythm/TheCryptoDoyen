@@ -12,7 +12,7 @@ const PricingCard = () => {
         id="home"
       >
         <h1 className="text-2xl sm:text-4xl lg:text-5xl text-center font-bold text-gray-800">
-          Pick a plan thats{" "}
+          Pick a plan that&apos;s
         </h1>
         <h1 className="text-2xl sm:text-4xl lg:text-5xl text-center font-bold text-gray-800">
           right for you
@@ -251,12 +251,12 @@ const PricingCard = () => {
         id="home"
       >
        
-       <h3 className="text-center mt-3 text-base lg:text-lg">
+       {/* <h3 className="text-center mt-3 text-base lg:text-lg">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat. Duis aute irure
-      </h3>
+      </h3> */}
       </div>
 
 

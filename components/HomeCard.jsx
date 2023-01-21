@@ -19,7 +19,7 @@ const HomeCard = () => {
         I am a full-stack dev.
       </h1>
       <h3 className="text-center mt-3  text-base lg:text-lg">
-        Welcome to the Crypto Doyen's Crib Helen, a professional resume writer with years of experience in the industry. With a strong understanding of 
+        Welcome to the Crypto Doyen&apos;s Crib , a professional resume writer with years of experience in the industry. With a strong understanding of 
       the job market and a keen eye for detail.
       </h3>
       <div className="p-3">  
