@@ -44,11 +44,14 @@ const slider = () => {
             id="home"
           >
             <div className="testimonial_flex">
+            <picture>
+                
               <img
                 className="h-20 w-20"
                 src="https://img.icons8.com/stickers/100/000000/parse-resumes.png"
                 alt=""
-              />
+                />
+                </picture>
             </div>
 
             <h1 className="font-bold"> John Doe</h1>
@@ -65,11 +68,14 @@ const slider = () => {
             id="home"
           >
             <div className="testimonial_flex">
+            <picture>
+                
               <img
                 className="h-20 w-20"
                 src="https://img.icons8.com/bubbles/50/000000/user.png"
                 alt=""
-              />
+                />
+                </picture>
             </div>
 
             <h1 className="font-bold"> John Doe</h1>
@@ -86,11 +92,14 @@ const slider = () => {
             id="home"
           >
             <div className="testimonial_flex">
+            <picture>
+                
               <img
                 className="h-20 w-20"
                 src="https://img.icons8.com/bubbles/50/000000/user.png"
                 alt=""
-              />
+                />
+                </picture>
             </div>
 
             <h1 className="font-bold"> John Doe</h1>
@@ -107,11 +116,14 @@ const slider = () => {
             id="home"
           >
             <div className="testimonial_flex">
+            <picture>
+                
               <img
                 className="h-20 w-20"
                 src="https://img.icons8.com/bubbles/50/000000/user.png"
                 alt=""
-              />
+                />
+                </picture>
             </div>
 
             <h1 className="font-bold"> John Doe</h1>
